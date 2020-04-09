@@ -20,7 +20,7 @@ var remoteData;
 const fbPrefix = 'https://www.facebook.com/sharer/sharer.php?u=';
 const twPrefix = 'https://twitter.com/intent/tweet?url=';
 const bgPrefix = 'rgba(0, 0, 0, 0) url("';
-const bgSuffix = '") no-repeat fixed 50% 50% / cover padding-box';
+const bgSuffix = '") no-repeat fixed 50% 50% / contain padding-box';
 const emailPrefix = "mailto:?subject=Auckland Museum collections&body=";
 const remote = 'https://raw.githubusercontent.com/AucklandMuseum/ChromeNewTabExtension/master/images.json';
 const local = 'local.json'
